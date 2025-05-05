@@ -1,0 +1,16 @@
+name: Simple Cron Test
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # run every 10 minutes (UTC)
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run echo
+        run: echo "Hello from GitHub Actions"
