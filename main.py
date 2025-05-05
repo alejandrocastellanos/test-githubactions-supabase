@@ -20,4 +20,5 @@ if __name__ == "__main__":
         if response.data[0].get('id'):
             print("User added successfully:", response.data[0].get('id'))
     except Exception as e:
+
         print("Failed to add user:", e)

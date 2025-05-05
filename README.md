@@ -2,6 +2,7 @@
 
 ## Overview
 
+
 This project provides a simple Python script to interact with a Supabase database. It demonstrates how to create a new user entry in a "users" table within the configured Supabase project. 
 
 The script generates a random email and user ID, constructs a user record, and inserts it into the database.
