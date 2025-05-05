@@ -1,8 +1,9 @@
 name: Simple Cron Test
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # run every 10 minutes (UTC)
+#  schedule:
+#    - cron: '0 * * * *'  # run every 10 minutes (UTC)
+  workflow_dispatch:
 
 jobs:
   test:
