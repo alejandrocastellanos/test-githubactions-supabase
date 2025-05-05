@@ -2,7 +2,7 @@ name: Run main.py every 10 minutes
 permissions: read-all
 on:
   schedule:
-    - cron: '*/5 * * * *'  # run every 10 minutes (en UTC)
+    - cron: []
   workflow_dispatch:
 
 jobs:
